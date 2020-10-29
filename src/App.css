@@ -1,0 +1,36 @@
+#recipeElementWrapper{
+	padding-left: 40vw;
+	margin-top: 2%;	
+}
+
+.close{
+	display: none;
+}
+
+#buttonDiv{
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 8rem;
+}
+
+#buttonDiv h5{
+	padding-top: 6px;
+}
+
+@media (max-width: 768px){
+	#recipeElementWrapper{
+		padding-left: 30vw;
+	}
+}
+
+@media (max-width: 414px){
+	#recipeElementWrapper{
+		padding-left: 6vw;
+	}
+}
+
+@media (max-width: 375px){
+	#recipeElementWrapper{
+		padding-left: 3vw;
+	}
+}

@@ -1,0 +1,7 @@
+.toast{
+	background-color: #343a40!important;
+	color: white;
+
+	margin-bottom: 4%!important;
+	box-shadow: 0 .25rem .75rem rgba(0,0,0,.3)!important;
+}
