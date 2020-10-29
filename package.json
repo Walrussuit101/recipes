@@ -2,6 +2,7 @@
   "name": "free-api-fun",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Walrussuit101.github.io/recipes",
   "dependencies": {
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.3",
@@ -16,9 +17,13 @@
     "react-bootstrap": "^1.3.0",
     "bootstrap": "^4.5.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
   "scripts": {
     "start": "react-scripts start",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

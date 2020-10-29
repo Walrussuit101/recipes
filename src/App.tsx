@@ -37,7 +37,7 @@ class App extends React.Component<{}, state> {
 		let newPage = this.state.page + 1;	
 		this.setState({
 			page: newPage,	
-			fetchURL: "https:cors-anywhere.herokuapp.com/" + "http://www.recipepuppy.com/api/?q="+this.state.searchTerm+"&p="+newPage.toString()
+			fetchURL: corsAnywhereURL + "http://www.recipepuppy.com/api/?q="+this.state.searchTerm+"&p="+newPage.toString()
 		})
 	}
 
@@ -45,7 +45,7 @@ class App extends React.Component<{}, state> {
 		let newPage = this.state.page - 1;
 		this.setState({
 			page: newPage,
-			fetchURL: "https:cors-anywhere.herokuapp.com/" + "http://www.recipepuppy.com/api/?q="+this.state.searchTerm+"&p="+newPage.toString()
+			fetchURL: corsAnywhereURL + "http://www.recipepuppy.com/api/?q="+this.state.searchTerm+"&p="+newPage.toString()
 		})
 	}
 
@@ -54,7 +54,7 @@ class App extends React.Component<{}, state> {
 		let newPage = 1;
         this.setState({
 			page: newPage,
-			fetchURL: "https://cors-anywhere.herokuapp.com/" + "http://www.recipepuppy.com/api/?q="+this.state.searchTerm+"&p="+newPage.toString()
+			fetchURL: corsAnywhereURL + "http://www.recipepuppy.com/api/?q="+this.state.searchTerm+"&p="+newPage.toString()
         })
     }
 
