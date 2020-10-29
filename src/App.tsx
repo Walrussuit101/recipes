@@ -132,6 +132,7 @@ class App extends React.Component<{}, state> {
 						}
 					/>
 					<div id="recipeElementWrapper">
+						<p id="resultsPara">Results provided by <a href="http://www.recipepuppy.com/" target="_blank">Recipe Puppy API</a></p>
 						{elements}
 						{buttons}
 					</div>

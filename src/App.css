@@ -17,6 +17,11 @@
 	padding-top: 6px;
 }
 
+#resultsPara{	
+	margin-bottom: 15px!important;
+	margin-left: 30px;
+}
+
 @media (max-width: 768px){
 	#recipeElementWrapper{
 		padding-left: 30vw;
