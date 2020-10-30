@@ -13,7 +13,7 @@ class NavBar extends React.Component<NavBarProps, {}>{
 		return(
 			<>
 			<Navbar bg="dark" variant="dark" expand="lg">
-  				<Navbar.Brand href="/">Recipe Searcher &#127860;</Navbar.Brand>
+  				<Navbar.Brand href="/recipes">Recipe Searcher &#127860;</Navbar.Brand>
 				{this.props.spinner}
   				<Navbar.Toggle aria-controls="basic-navbar-nav" />
   				<Navbar.Collapse id="basic-navbar-nav">
